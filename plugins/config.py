@@ -11,13 +11,13 @@ logging.basicConfig(
 
 class Config(object):
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6027092535:AAFrjHsULgDP96NfwSAHQS2jmbJl-8lVwK8")
 
-    API_ID = int(os.environ.get("API_ID", 23560088))
+    API_ID = int(os.environ.get("API_ID", 24316180))
 
-    API_HASH = os.environ.get("API_HASH", "999c01704d5c417749a98f4b8785fe88")
+    API_HASH = os.environ.get("API_HASH", "8066dbf08378a0ab71a08123c85e2c8c")
 
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5410723702").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "6027092535").split())
 
     BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
 
@@ -25,11 +25,11 @@ class Config(object):
 
     UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
 
-    MAX_FILE_SIZE = 4194304000
+    MAX_FILE_SIZE = 6194304000
 
-    TG_MAX_FILE_SIZE = 4194304000
+    TG_MAX_FILE_SIZE = 6194304000
 
-    FREE_USER_MAX_FILE_SIZE = 4194304000
+    FREE_USER_MAX_FILE_SIZE = 10194304000
 
     CHUNK_SIZE = int(os.environ.get("CHUNK_SIZE", 128))
 
@@ -53,7 +53,7 @@ class Config(object):
 
     LOGGER = logging
 
-    OWNER_ID = int(os.environ.get("OWNER_ID", "5410723702"))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "6027092535"))
 
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
     
